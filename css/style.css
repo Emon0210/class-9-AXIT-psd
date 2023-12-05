@@ -1,0 +1,792 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+/***************************
+      golobal css start
+ ************************* */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+
+
+}
+
+
+
+
+/***************************
+      golobal css end
+ ************************* */
+
+
+/***************************
+      header css start
+ ************************* */
+
+
+
+
+
+
+.navbar {
+    background: black;
+}
+
+
+.navbar .container ul {
+    color: white;
+    display: flex;
+
+}
+
+
+.navbar .container ul li {
+    padding: 10px 20px 1px;
+    list-style: none;
+    text-align: center;
+
+}
+
+
+
+/***************************
+      header css end
+ ************************* */
+
+
+
+/***************************
+      banner css start
+ ************************* */
+
+
+
+
+
+.banner-section {
+
+    width: 100%;
+    background: url(../image/banner.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.banner-section .container {}
+
+
+.banner-section .container .row {
+    color: #ffffff;
+
+
+}
+
+
+
+
+.cus-height {
+
+    height: 100vh;
+
+}
+
+
+.banner-section .container .row .col-8 {
+    margin-top: -10px;
+
+}
+
+
+
+.banner-section .container .row .col-8 h1 {
+    font-weight: 700;
+    font-size: 70px;
+    padding-bottom: 10px;
+
+}
+
+
+.banner-section .container .row .col-8 h1 span {
+
+    color: #ff8b38;
+    font-weight: 400;
+}
+
+
+
+
+
+.banner-section .container .row .col-8 h3 {
+    width: 72%;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 36px;
+    padding-bottom: 10px;
+
+}
+
+
+.banner-section .container .row .col-8 .line {
+
+    margin: 25px 0px;
+    width: 8%;
+    border-bottom: 1px solid #ffffff;
+}
+
+
+
+.banner-section .container .row .col-8 h6 {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #89898d;
+    width: 65%;
+}
+
+
+
+
+.banner-section .container .row .col-8 a {
+
+    background: transparent;
+    border-radius: none !important;
+    border-radius: 1px;
+    border-color: #cfcfcf;
+    margin-top: 40px;
+    padding: 5px 25px;
+}
+
+
+
+
+/*******************
+      form css
+ ******************/
+
+
+
+
+
+.banner-section .container .row .col-4 {}
+
+
+
+
+
+
+.banner-section .container .row .col-4 form {
+    width: 92%;
+    margin: 5px 0px;
+
+
+}
+
+
+
+
+
+.banner-section .container .row .col-4 form .card {
+
+    border: none;
+}
+
+
+
+
+.banner-section .container .row .col-4 form .card .card-header {
+    background: #f5f5f5;
+    border: none;
+}
+
+
+.banner-section .container .row .col-4 form .card .card-header h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+
+
+.banner-section .container .row .col-4 form .card .card-header h2 span {
+    color: #ff8b38;
+    text-transform: uppercase;
+}
+
+
+
+
+.banner-section .container .row .col-4 form .card .card-body {}
+
+
+
+.banner-section .container .row .col-4 form .card .card-body {}
+
+
+
+
+
+
+.banner-section .container .row .col-4 form .card .card-body .form-group {
+
+    padding: 18px 10px 18px 25px;
+    color: #cfcfcf;
+
+
+
+}
+
+.banner-section .container .row .col-4 form .card .card-body .form-group input {
+
+
+    color: #3f0a0a;
+
+
+
+}
+
+
+.banner-section .container .row .col-4 form .card .card-body .form-group .form-control {
+    border: none;
+    border-bottom: 1px solid #bcbcc0;
+    border-radius: 0px;
+    padding: 10px 5px;
+
+}
+
+
+
+
+.banner-section .container .row .col-4 form .card .card-footer {
+
+    background: #ff8b38;
+    text-align: center;
+}
+
+.banner-section .container .row .col-4 form .card .card-footer a {
+    background: transparent;
+
+    border: none;
+
+
+}
+
+
+
+
+
+
+
+/***************************
+      banner css end
+ ************************* */
+
+
+/*************************************
+      social bar section css start
+ ***************************************/
+
+
+
+
+.social-bar-section {
+    border-bottom: 3px solid #b7b7b7;
+
+}
+
+
+
+.social-bar-section .container {
+    display: flex;
+
+
+}
+
+
+
+
+
+.social-bar-section .container .row {
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+
+}
+
+
+.social-bar-section .container .row .col-5 {}
+
+
+.social-bar-section .container .row .col-5 h5 {
+
+    font-weight: 700;
+
+}
+
+.social-bar-section .container .row .col-5 h6 {
+    color: #a0a0a5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+
+
+.social-bar-section .container .row .col-7 .icon {}
+
+
+
+.social-bar-section .container .row .col-7 .icon i {
+    padding: 10px 10px 5px 37px;
+    color: #afafb4;
+    font-size: 38px;
+
+
+}
+
+
+
+
+
+
+/*************************************
+        social bar section css end
+ ***************************************/
+
+
+
+/*************************************
+        tab section css start
+ ***************************************/
+
+
+
+
+
+
+
+
+.tab-section {
+    width: 100%;
+    padding: 80px 0px;
+    background: #f5f5f5;
+}
+
+
+
+
+
+
+.tab-section .container {}
+
+
+
+
+.tab-section .container .row {}
+
+
+.tab-section .container .row .col-8 .nav-link {
+
+    width: 85px;
+    height: 95px;
+    background: #333333;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    margin-right: 80px;
+
+}
+
+
+.tab-section .container .row .col-8 .tab-1 {
+
+    border-radius: 4px 4px 0px 0px !important;
+
+}
+
+
+
+.tab-section .container .row .col-8 .tab-2 {
+
+    border-radius: 0px 0px 0px 0px !important;
+
+}
+
+
+
+.tab-section .container .row .col-8 .tab-3 {
+
+    border-radius: 0px 0px 4px 4px !important;
+
+}
+
+
+.tab-section .container .row .col-8 .nav-pills .nav-link.active {
+    background: #ff8b38;
+
+
+}
+
+
+
+
+
+
+.tab-section .container .row .col-8 .tab-content {}
+
+
+
+
+.tab-section .container .row .col-8 .tab-content h2 {
+
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+
+
+
+.tab-section .container .row .col-8 .tab-content p {
+
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    width: 84%;
+    color: #aaaaaf;
+    margin-top: 40px;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+.tab-section .container .row .col-8 .tab-content .btn {
+
+    background: #ff8b38;
+    border: none !important;
+    border: 1px solid #ff8b38;
+    border-radius: 2px;
+    color: #f5f5f5;
+    padding: 5px 15px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.tab-section .container .row .col-4 {}
+
+
+
+
+/*************************************
+        tab section css end
+ ***************************************/
+
+
+
+
+/*************************************
+        sub -list section css start
+ ***************************************/
+
+
+.sub-list-section {
+    margin: 60px;
+
+}
+
+
+
+.sub-list-section .container {}
+
+
+.sub-list-section .container .row {}
+
+
+.sub-list-section .container .row .col-6 {}
+
+
+.sub-list-section .container .row .col-6 img {
+    width: 100%;
+    margin-right: 30px;
+    margin-left: -50px;
+}
+
+
+
+
+
+
+.sub-list-section .container .row .col-6 h5 {
+
+    font-weight: 700;
+}
+
+
+.sub-list-section .container .row .col-6 .line {
+
+    margin: 25px 0px;
+    width: 12%;
+    border-bottom: 2px solid #ff8b38;
+
+}
+
+
+
+.sub-list-section .container .row .col-6 h6 {
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    width: 90%;
+    color: #adadb1;
+}
+
+.sub-list-section .container .row .col-6 .icon {
+
+    display: flex;
+    margin-top: 30px;
+
+}
+
+
+.sub-list-section .container .row .col-6 .icon i {
+
+
+    margin: 20px 40px 20px 0px;
+    color: #ff8b38;
+    height: 40px;
+    width: 55px;
+    line-height: 39px;
+    text-align-last: center;
+    border-radius: 70%;
+    border: 2px solid #ff8b38;
+    padding-bottom: 5px;
+
+
+}
+
+
+
+
+
+.sub-list-section .container .row .col-6 .icon .details {}
+
+
+
+
+
+
+.sub-list-section .container .row .col-6 .icon .details h6 {
+    color: #131314;
+    font-weight: 600;
+
+}
+
+.sub-list-section .container .row .col-6 .icon .details p {
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    width: 90%;
+    color: #adadb1;
+}
+
+
+
+
+
+/*************************************
+        sub -list section css end
+ ***************************************/
+
+
+
+
+
+
+/*************************************
+        standard -picture section css start
+ ***************************************/
+
+
+.standard-picture-section {
+
+    background: #f5f5f5;
+
+}
+
+.standard-picture-section .container {}
+
+
+.standard-picture-section .container .row {}
+
+
+
+.standard-picture-section .container .row .col-6 {
+    margin-top: 80px;
+
+}
+
+
+
+
+.standard-picture-section .container .row .col-6 h5 {
+
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+
+
+.standard-picture-section .container .row .col-6 .line {
+
+    margin: 25px 0px;
+    width: 12%;
+    border-bottom: 2px solid #ff8b38;
+}
+
+.standard-picture-section .container .row .col-6 p {
+
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    width: 87%;
+    color: #a5a5aa;
+
+
+}
+
+.standard-picture-section .container .row .col-6 img {}
+
+
+
+/*************************************
+        stundard -picture section css end
+ ***************************************/
+
+
+
+
+/*************************************
+        details section css start
+ ***************************************/
+
+
+
+
+.details-section {}
+
+
+
+
+.details-section .container {}
+
+
+.details-section .container .row {
+
+    margin: auto;
+
+    margin-top: 50px;
+
+}
+
+/******************** 1st row **************** */
+
+.details-section .container .row .col-12 {
+
+    text-align: center;
+
+}
+
+
+.details-section .container .row .col-12 h2 {
+
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+
+}
+
+
+.details-section .container .row .col-12 .line {
+    margin-left: 518px !important;
+    margin: 22px 0px 24px;
+    width: 5%;
+    border-bottom: 2px solid #ff8b38;
+}
+
+.details-section .container .row .col-12 h6 {
+
+    color: #a9aaac;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+   
+}
+
+
+
+/******************************* row-2 ************************/
+
+
+
+
+.details-section .container .row .col-4 {
+
+    text-align: center;
+}
+
+
+
+.details-section .container .row .col-4 i{
+    margin: 20px 10px 20px 10px;
+    color: #ff8b38;
+    height: 50px;
+    width: 50px;
+    line-height: 46px;
+    text-align-last: center;
+    border-radius: 50%;
+    border: 2px solid #ff8b38;
+    padding-bottom: ;
+    font-size: 22px;
+}
+    
+
+
+
+.details-section .container .row .col-4 h4{
+text-transform: capitalize;
+font-size: 22px;
+font-weight: 700;
+    
+}
+
+
+
+.details-section .container .row .col-4 p {
+
+    color: #8f9092;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    width: 96%;
+    margin: 20px;
+}
+
+
+
+/*************************************
+        details section css end
+ ***************************************/
